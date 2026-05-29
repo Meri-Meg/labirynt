@@ -1,0 +1,10 @@
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Content/AI/Blueprints/HDR/starmap_16k.uasset
+.vs/
+.idea/
+*.sln
+*.suo
