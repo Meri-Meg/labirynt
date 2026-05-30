@@ -1862,3 +1862,106 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.30-10.19.33:134][799]UATHelper: Packaging (Windows): LogIoStore: Display: Processing redirects...
 [2026.05.30-10.19.33:134][799]UATHelper: Packaging (Windows): LogIoStore: Display: Creating disk layout...
 [2026.05.30-10.19.33:144][799]UATHelper: Packaging (Windows): LogIoStore: Display: Ordered 601 packages using fallback bundle order
+[2026.05.30-10.19.35:145][805]UATHelper: Packaging (Windows): LogIoStore: Display: Serializing container(s)...
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Writing chunks 1988/2160... [586 compressed] [923 compression tasks] [Physical: 1126 MiB, Virtual: 3634 MiB]
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Writing and compressing took 2.26 seconds, writes to disk took 0.41 seconds for 564,949,248 bytes @ 1,392,536,781 bytes per second.
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: global: Found perfect hashmap for 1 items.
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Nowatorska_Gra-Windows: Found perfect hashmap for 2159 items.
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 331,243 bytes, 91,958,302 bytes per second
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Writing tocs... [Physical: 1088 MiB, Virtual: 3427 MiB]
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: 154 / 2,160 hashes were loaded from the hash database, by type:
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:     BulkData                   154
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: 755 / 2,160 chunks attempted to compress, by type:
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:     ExportBundleData           601 / 601
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:     BulkData                   154 / 154
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:     ScriptObjects              0 / 1
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:     ContainerHeader            0 / 1
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:     ShaderCodeLibrary          0 / 4
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:     ShaderCode                 0 / 1,399
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Source bytes read:
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:     Zen:                                  0
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:     Loose File:               1,464,098,421
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:         ExportBundleData       1,293,557,538 bytes over 1,202 reads
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:         BulkData                170,540,883 bytes over 154 reads
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:     Memory:                     212,566,472
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:         ShaderCodeLibrary         1,457,096 bytes over 8 reads
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:         ShaderCode              211,109,376 bytes over 2,798 reads
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Calculating stats...
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Container Summary
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: ==================
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: global                                              -/-/-/-/-               1            0.66                 2.48                 2.48 -
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Nowatorska_Gra-Windows                              C/-/-/I/-            2159          322.82               883.03               536.29 (39.27% Oodle)
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Total                                                                    2160          323.48               885.51               538.78
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Compression block padding:     1.57 MiB
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Container Directory Index
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: ==========================
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Container                                          Size (KiB)
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: global                                                   0.00
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Nowatorska_Gra-Windows                                  36.48
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: Container Patch Report
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display: ========================
+[2026.05.30-10.19.35:606][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: global                                                      1                0                0             0.00             0.00
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Nowatorska_Gra-Windows                                   2159                0             2159             0.00           534.73
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: PackageStore
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: =============
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Nowatorska_Gra-Windows                                     19             601               0
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Total                                                      19             601               0
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Input:       601 Packages
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.60 GB UExp
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.00 GB UAsset
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.16 GB UBulk
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Input:     85.91 MB for 1015 Global shaders
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      1.55 MB for 171 Shared shaders
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.00 MB for 0 Unique shaders
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Input:     13.20 MB for 213 Inline shaders
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     7018 Name map entries
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Output:      705 Imported package entries
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Output:      337 Packages without imports
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Output:        0 Public runtime script objects
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     0.00 GB HeaderData
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     2.48 MB InitialLoadData
+[2026.05.30-10.19.35:616][806]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2026.05.30-10.19.35:669][807]UATHelper: Packaging (Windows): LogPakFile: Display: UnrealPak executed in 3.521633 seconds
+[2026.05.30-10.19.35:669][807]UATHelper: Packaging (Windows): Took 3,70s to run UnrealPak.exe, ExitCode=0
+[2026.05.30-10.19.35:680][807]UATHelper: Packaging (Windows): DumpManifest: C:\Users\Dawid\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+UE5.6+UE_5.6\FinalCopyWin64_UFSFiles.txt, NumItems: 3034
+[2026.05.30-10.19.35:680][807]UATHelper: Packaging (Windows): DumpManifest: C:\Users\Dawid\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+UE5.6+UE_5.6\FinalCopyWin64_NonUFSFiles.txt, NumItems: 329
+[2026.05.30-10.19.35:680][807]UATHelper: Packaging (Windows): DumpManifest: C:\Users\Dawid\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+UE5.6+UE_5.6\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 6
+[2026.05.30-10.19.35:680][807]UATHelper: Packaging (Windows): Copying NonUFSFiles to staging directory: C:\Users\Dawid\Documents\GitHub\labirynt\Saved\StagedBuilds\Windows
+[2026.05.30-10.19.36:500][809]UATHelper: Packaging (Windows): Copying DebugFiles to staging directory: C:\Users\Dawid\Documents\GitHub\labirynt\Saved\StagedBuilds\Windows
+[2026.05.30-10.19.36:797][810]UATHelper: Packaging (Windows): Stage command time: 5.62 s
+[2026.05.30-10.19.36:797][810]UATHelper: Packaging (Windows): ********** STAGE COMMAND COMPLETED **********
+[2026.05.30-10.19.36:808][810]UATHelper: Packaging (Windows): ********** PACKAGE COMMAND STARTED **********
+[2026.05.30-10.19.36:808][810]UATHelper: Packaging (Windows): Package command time: 0.00 s
+[2026.05.30-10.19.36:808][810]UATHelper: Packaging (Windows): ********** PACKAGE COMMAND COMPLETED **********
+[2026.05.30-10.19.36:808][810]UATHelper: Packaging (Windows): ********** ARCHIVE COMMAND STARTED **********
+[2026.05.30-10.19.36:808][810]UATHelper: Packaging (Windows): Archiving to C:/Users/Dawid/Desktop/build
+[2026.05.30-10.19.37:863][813]UATHelper: Packaging (Windows): Archive command time: 1.06 s
+[2026.05.30-10.19.37:863][813]UATHelper: Packaging (Windows): ********** ARCHIVE COMMAND COMPLETED **********
+[2026.05.30-10.19.37:863][813]UATHelper: Packaging (Windows): BuildCookRun time: 62.00 s
+[2026.05.30-10.19.37:863][813]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2026.05.30-10.19.37:863][813]UATHelper: Packaging (Windows): AutomationTool executed for 0h 1m 2s
+[2026.05.30-10.19.37:863][813]UATHelper: Packaging (Windows): AutomationTool exiting with ExitCode=0 (Success)
+[2026.05.30-10.19.37:983][813]LogStreaming: Display: FlushAsyncLoading(341): 1 QueuedPackages, 0 AsyncPackages
