@@ -243,11 +243,15 @@ struct Z_Construct_UFunction_AMaze_Randomize_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "CallInEditor", "true" },
 		{ "Category", "Maze" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Generate Maze with random size, seed and \n\x09 * algorithm with path connecting top-left and bottom-right corners.\n\x09 */" },
+#endif
 		{ "DisplayPriority", "0" },
 		{ "ModuleRelativePath", "Public/Maze.h" },
 		{ "ShortTooltip", "Generate an arbitrary maze." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Generate Maze with random size, seed and\nalgorithm with path connecting top-left and bottom-right corners." },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -277,9 +281,13 @@ struct Z_Construct_UFunction_AMaze_UpdateMaze_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Maze" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Update Maze according to pre-set parameters: Size, Generation Algorithm, Seed and Path-related params.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Maze.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Update Maze according to pre-set parameters: Size, Generation Algorithm, Seed and Path-related params." },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -472,8 +480,8 @@ struct Z_Construct_UClass_AMaze_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMaze_Randomize, "Randomize" }, // 3202965910
-		{ &Z_Construct_UFunction_AMaze_UpdateMaze, "UpdateMaze" }, // 2881224589
+		{ &Z_Construct_UFunction_AMaze_Randomize, "Randomize" }, // 3063781187
+		{ &Z_Construct_UFunction_AMaze_UpdateMaze, "UpdateMaze" }, // 2885908302
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -561,7 +569,7 @@ AMaze::~AMaze() {}
 // ********** End Class AMaze **********************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MazeGenerator_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics
+struct Z_CompiledInDeferFile_FID_labirynt_Plugins_Marketplace_MazeGene1598ed850df5V8_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EGenerationAlgorithm_StaticEnum, TEXT("EGenerationAlgorithm"), &Z_Registration_Info_UEnum_EGenerationAlgorithm, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2194093854U) },
@@ -571,13 +579,13 @@ struct Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProje
 		{ FMazeCoordinates::StaticStruct, Z_Construct_UScriptStruct_FMazeCoordinates_Statics::NewStructOps, TEXT("MazeCoordinates"), &Z_Registration_Info_UScriptStruct_FMazeCoordinates, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMazeCoordinates), 1506582941U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMaze, AMaze::StaticClass, TEXT("AMaze"), &Z_Registration_Info_UClass_AMaze, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMaze), 1183474327U) },
+		{ Z_Construct_UClass_AMaze, AMaze::StaticClass, TEXT("AMaze"), &Z_Registration_Info_UClass_AMaze, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMaze), 369671561U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MazeGenerator_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_567510263(TEXT("/Script/MazeGenerator"),
-	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MazeGenerator_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MazeGenerator_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MazeGenerator_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MazeGenerator_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::ScriptStructInfo),
-	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MazeGenerator_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MazeGenerator_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::EnumInfo));
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_labirynt_Plugins_Marketplace_MazeGene1598ed850df5V8_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_965465563(TEXT("/Script/MazeGenerator"),
+	Z_CompiledInDeferFile_FID_labirynt_Plugins_Marketplace_MazeGene1598ed850df5V8_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_labirynt_Plugins_Marketplace_MazeGene1598ed850df5V8_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_labirynt_Plugins_Marketplace_MazeGene1598ed850df5V8_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_labirynt_Plugins_Marketplace_MazeGene1598ed850df5V8_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_labirynt_Plugins_Marketplace_MazeGene1598ed850df5V8_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_labirynt_Plugins_Marketplace_MazeGene1598ed850df5V8_Source_MazeGenerator_Public_Maze_h__Script_MazeGenerator_Statics::EnumInfo));
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
